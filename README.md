@@ -99,7 +99,7 @@ This repository provides the complete simulation framework and implementation co
 
 ## Install & Run Guide
 ```
-pip install -r Requirement.txt
+pip install -r requirements.txt
 python RunSimulationRampMetering.py --help
 # python RunSimulationRampMetering.py --sumo-path [A] --controller [B]
 ```
@@ -149,7 +149,7 @@ Additionally, the following analysis files will be generated:
 
 
 
-## Credits
+## 📄 Citation
 
 If you found this repository helpful, please cite our work:
 
