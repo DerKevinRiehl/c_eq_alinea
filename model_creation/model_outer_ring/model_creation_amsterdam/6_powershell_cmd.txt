@@ -1,0 +1,1 @@
+C:\Users\kriehl\AppData\Local\sumo-1.19.0\bin\duarouter.exe -n osm_reduced_kevin.net.xml -t 5_Routes.xml -o 6_duarouter_trips.xml

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <!-- SIMULATION SETTINGS -->
+    <time>
+        <begin value="0"/>
+        <end value="86400"/> <!-- 24 hours, from 00:00 - 24:00 -->
+    </time>
+    
+    <!-- PROCESSING OPTIONS -->
+    <processing>
+        <step-length value="1"/>
+        <time-to-teleport value="-1"/> <!-- Disable Teleportation -->
+		<device.emissions.period value="10" />
+		<summary-output.period value="300"/>
+    </processing>
+    
+    <!-- INPUT FILES -->
+    <input>
+        <!-- <net-file value="osm_reduced_kevin_manually_modified_speeds.net.xml"/> -->
+        <net-file value="osm_reduced_kevin_manually_modified_speeds2.net.xml"/>
+        <route-files value="demand_model_amsterdam_combi.rou.xml"/>
+		<!-- <additional-files value="sensors_loops_amsterdam.add.xml"/> -->  <!-- ,edge_logging.xml -->
+    </input>
+	
+    <!-- OUTPUT FILES / LOGGING -->
+	<output>
+		<!-- <emission-output value="logs/Emissions.xml" /> -->
+		<!-- <tripinfo-output value="logs/TripInfos.xml" write-unfinished="true"/> -->
+		<!-- <summary-output value="logs/Log_summary.xml"/> -->
+	</output>
+	
+    <!-- REPORT OPTIONS -->
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-29 09:01:27 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\kriehl\Desktop\OmarOptim\data\model_creation_amsterdam\osm_reduced_kevin_manually_modified_speeds2.net.xml"/>
+        <route-files value="C:\Users\kriehl\Desktop\OmarOptim\data\model_creation_amsterdam\demand_model_amsterdam.rou.xml"/>
+        <additional-files value="C:\Users\kriehl\Desktop\OmarOptim\data\model_creation_amsterdam\sensors_loops_amsterdam.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output.period value="300"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="10"/>
+    </emissions>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="3600.00" id="0_GEO0B_R_1_RWSTI358742_0" nVehContrib="49" flow="49.00" occupancy="0.27" speed="25.75" harmonicMeanSpeed="25.47" length="5.02" nVehEntered="49"/>
+    <interval begin="3600.00" end="7200.00" id="0_GEO0B_R_1_RWSTI358742_0" nVehContrib="24" flow="24.00" occupancy="0.13" speed="25.48" harmonicMeanSpeed="25.21" length="4.89" nVehEntered="24"/>
+    <interval begin="7200.00" end="8207.00" id="0_GEO0B_R_1_RWSTI358742_0" nVehContrib="9" flow="32.17" occupancy="0.17" speed="27.37" harmonicMeanSpeed="27.15" length="5.02" nVehEntered="9"/>
+</detector>

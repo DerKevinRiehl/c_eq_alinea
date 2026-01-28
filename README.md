@@ -87,7 +87,8 @@ This repository provides the complete simulation framework and implementation co
 │   ├── logs_ALINEA.zip
 │   ├── logs_METALINE.zip
 │   └── logs_NO_CONTROL.zip
-└── model/
+├── model/
+├── model_creation/
 ├── Configuration.sumocfg
 ├── Network_fin.net.xml
 └── ...
@@ -96,6 +97,7 @@ This repository provides the complete simulation framework and implementation co
 - **figures/** - Includes visualization outputs and charts referenced in the publication  
 - **logs/** - Stores compressed simulation output files for all tested control strategies
 - **model/** - Houses the complete SUMO traffic simulation model and configuration files
+- **model_creation/** - Comprises scripts and resources how the model was created
 
 ## Install & Run Guide
 ```
